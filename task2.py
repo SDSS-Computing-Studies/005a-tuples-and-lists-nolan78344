@@ -30,5 +30,5 @@ c = str(input("Please enter word "))
 d = str(input("Please enter word "))
 e = str(input("Please enter word "))
 
-wordlist = [a,b,c,d,e]
+wordlist = [a, b, c, d, e]
 print(wordlist)
