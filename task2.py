@@ -25,11 +25,11 @@ Enter a word: virus
 """
 wordlist = []
 
-a = str(input("Please enter word "))
-b = str(input("Please enter word "))
-c = str(input("Please enter word "))
-d = str(input("Please enter word "))
-e = str(input("Please enter word "))
+a = str(input("Please enter word ")).strip()
+b = str(input("Please enter word ")).strip()
+c = str(input("Please enter word ")).strip()
+d = str(input("Please enter word ")).strip()
+e = str(input("Please enter word ")).strip()
 
 wordlist.append(a)
 wordlist.append(b)
