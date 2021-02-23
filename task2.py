@@ -23,6 +23,7 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+wordlist = []
 
 a = str(input("Please enter word "))
 b = str(input("Please enter word "))
@@ -30,5 +31,9 @@ c = str(input("Please enter word "))
 d = str(input("Please enter word "))
 e = str(input("Please enter word "))
 
-wordlist = [a, b, c, d, e]
+wordlist.append(a)
+wordlist.append(b)
+wordlist.append(c)
+wordlist.append(d)
+wordlist.append(e)
 print(wordlist)
