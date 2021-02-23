@@ -23,5 +23,15 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
+nums = []
 
+while True:
+    x = int(input("Please enter integer "))
+    if x != -1:
+        nums.append(x)
+    else:
+        break
 
+nums.sort()
+amount = len(nums)
+print("The largest number you entered is " + str(nums[amount - 1]))
