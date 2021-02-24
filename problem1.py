@@ -21,13 +21,13 @@ Enter the replacement:Dan
 """
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
-y = str(input("Please enter name to remove "))
+y = (input("Please enter name to remove "))
 try:
     people.index(y)
 except:
     exit()
 num = int(people.index(y))
-x = str(input("Please enter name to add "))
+x = (input("Please enter name to add "))
 people.remove(y)
 people.insert(num, x)
 
