@@ -21,7 +21,7 @@ Enter the replacement:Dan
 """
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
-y = (input("Please enter name to remove "))
+y = (input("Please enter name to remove ")).strip()
 try:
     people.index(y)
 except:
